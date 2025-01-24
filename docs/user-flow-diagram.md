@@ -15,8 +15,8 @@ flowchart TB
   end
  subgraph Home["Home"]
     direction TB
-        HI["Previews de graficos,\nfrequencia de uso e alertas"]
-        HA["Opiniao do assistente,\nbaseada em dados"]
+        HI["Previews de graficos, frequencia de uso e alertas"]
+        HA["Opiniao do assistente, baseada em dados"]
         HT["Isca para terapia"]
         D["Meu Diario"]
         Habs["Habitos"]
@@ -24,18 +24,18 @@ flowchart TB
   end
  subgraph Diario["Diario"]
     direction TB
-        DQ["Perguntas sobre o dia,\nsono, refeicoes, estresse"]
+        DQ["Perguntas sobre o dia, sono, refeicoes, estresse"]
         DS["Salvar entrada"]
   end
  subgraph HabitosArea["HabitosArea"]
     direction TB
         HM["Metricas de frequencia"]
-        HA2["Adicionar, excluir\nou editar habitos"]
-        HF["Marcar como feito\nou nao feito"]
+        HA2["Adicionar, excluir ou editar habitos"]
+        HF["Marcar como feito ou nao feito"]
   end
  subgraph TerapiaArea["TerapiaArea"]
     direction TB
-        TC["Chat com IA,\nacesso ao Diario e Habitos"]
+        TC["Chat com IA, acesso ao Diario e Habitos"]
   end
     A --> H
     H --> HI & HA & HT & Habs & T
